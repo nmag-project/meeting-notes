@@ -1,0 +1,14 @@
+# Meeting Notes 2022-03-10
+
+- Moved meeting time 3.5 hours earlier
+- Start taking meeting notes and create a repository to archive them:
+https://github.com/nmag-project/meeting-notes
+- People are interested in using docker. Madison will create a video on how to build and use it.
+- Venkat will backport the changes from the github.io (https://github.com/nmag-project/nmag-project.github.io) html to the website generator repository (https://github.com/nmag-project/website-generator). Ask Hans for any help with rest2web
+- Madison will create a makefile to replace build.sh in the website generator repository. There will be a `debug` target that will drop the user into the container.
+
+## Randomly observed issues
+
+- search function html docs doesn't work: https://nmag.readthedocs.io/en/latest/index.html
+- Unclear how the read-the-docs site was created. Linking a sphinx project to readthedocs is explained at https://sphinx-rtd-tutorial.readthedocs.io/en/latest/read-the-docs.html
+- source in https://github.com/nmag-project/nmag-doc/blob/master/nmag/Makefile
